@@ -1,6 +1,8 @@
 import pin from "../images/map_pin.png"
 
 export default function Location(location) {
+  console.log(location.startDate)
+
   return (
     <section className="location">
       <img src={location.image} alt={location.title} width="200" className="location-photo" />
