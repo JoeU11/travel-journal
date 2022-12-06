@@ -15,7 +15,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {locationElement}
+      <section id="location-container">
+        {locationElement}
+      </section>
     </div>
   );
 }

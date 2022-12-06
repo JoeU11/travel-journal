@@ -19,3 +19,57 @@ nav {
   color: white;
   font-weight: bold;
 }
+
+#location-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 67%;
+  margin: auto;
+}
+
+.location {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.location-photo {
+  width: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.location-text-block {
+  padding: 30px;
+  text-align: left;
+}
+
+.location-where {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: -35px;
+}
+
+.location-country {
+  letter-spacing: .2rem;
+}
+
+.location-title {
+  font-size: 35px;
+}
+
+.pin {
+  width: 15px;
+  height: 20px;
+}
+
+.location-dates {
+  font-weight: bold;
+}
+
+a:visited,
+a {
+  color: rgb(95, 91, 91)
+}
