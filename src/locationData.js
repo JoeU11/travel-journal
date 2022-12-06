@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: "Mount Fuji",
     country: "Japan",
     googleMapsLink: "",
@@ -9,6 +10,7 @@ export default [
     image: "https://source.unsplash.com/WLxQvbMyfas"
   },
   {
+    id: 2,
     title: "Sydney",
     country: "Australia",
     googleMapsLink: "",
@@ -18,6 +20,7 @@ export default [
     image: "https://source.unsplash.com/JmuyB_LibRo"
   },
   {
+    id: 3,
     title: "Geirangerfjord",
     country: "Norway",
     googleMapsLink: "",
