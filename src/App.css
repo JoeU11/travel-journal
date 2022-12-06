@@ -32,6 +32,9 @@ nav {
   display: flex;
   padding-top: 40px;
   padding-bottom: 40px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
 }
 
 .location-photo {
